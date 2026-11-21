@@ -1,0 +1,33 @@
+@import "tailwindcss";
+/* Add this block to configure your fonts */
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+}
+
+@theme {
+  /* --font-display: "Fraunces", "Georgia", serif;
+  --font-body: "Inter", system-ui, sans-serif; */
+
+  --color-navy-950: #050e24;
+  --color-navy-900: #0a1a3d;
+  --color-navy-800: #0f2456;
+  --color-navy-700: #14306f;
+  --color-navy-600: #1b3f8f;
+  --color-blue-600: #2456c9;
+  --color-blue-500: #3866e0;
+  --color-blue-400: #5c85ec;
+  --color-blue-200: #c3d5f7;
+  --color-blue-100: #e4ecfb;
+  --color-blue-50: #f2f6fd;
+  --color-ice-50: #f7f9fc;
+
+  /* Supporting accent tones — used sparingly for difficulty, highlights, price */
+  --color-accent-emerald: #1f9d6e;
+  --color-accent-emerald-soft: #e4f6ee;
+  --color-accent-amber: #c47a1f;
+  --color-accent-amber-soft: #faf0df;
+  --color-accent-rose: #c23f3f;
+  --color-accent-rose-soft: #fbe9e7;
+}
+
